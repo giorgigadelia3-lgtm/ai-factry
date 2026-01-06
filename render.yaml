@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ai-tiktok-video-api
+    env: docker
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /health
